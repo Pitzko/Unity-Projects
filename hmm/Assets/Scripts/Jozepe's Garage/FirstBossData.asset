@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6265c8ddad8bfd94da438d4b88631410, type: 3}
+  m_Name: FirstBossData
+  m_EditorClassIdentifier: 
+  floatSpeed: 1.4
+  distanceMult: 0.18
+  numberOfAttacks: 1
+  timeBetweenAttacks: {x: 0.25, y: 0.5}
+  returnToIdleTime: 0.9
+  rollDuration1: 1.3
+  delayBeforeDrop: 0.22
+  yGroundLevel: -3.2
+  dropDuration: 0.18
+  dropCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1.2735854
+      outSlope: 1.2735854
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08333331
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rollCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.006506181
+      outSlope: 0.006506181
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.3625
+    - serializedVersion: 3
+      time: 0.2891865
+      value: 0.1350722
+      inSlope: 1.5275351
+      outSlope: 1.5275351
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.23636356
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.44497523
+      value: 0.4387978
+      inSlope: 2.256793
+      outSlope: 2.256793
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.55147576
+      value: 0.68743265
+      inSlope: 2.3586984
+      outSlope: 2.3586984
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.10883346
+      outWeight: 0.164848
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  boxRolls1: 2
